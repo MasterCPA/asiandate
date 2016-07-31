@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,500);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900);
+
+body{
+	background-color: #F3F3F3;
+	overflow-x: hidden 
+}
+h1, h2, h3, h4, h5{
+	font-family: 'Raleway', sans-serif !important;
+}
+h1{
+	font-size: 66px !important;
+	color: #efddd3;
+	font-weight: 700 !important;
+
+}
+span{
+	color: #ff6b6b;
+}
+section#one {
+    background: url(http://i.imgur.com/f2npc7Z.png) no-repeat;
+    background-size: cover;
+}
+.top-section.text-left h1 {
+    padding: 0px 0px 0px 100px;
+}
+.top-section.text-left h2 {
+    padding: 0 100px;
+    font-size: 26px;
+    color: #efddd3;
+    font-weight: bold;
+}
+.top-section.text-left img {
+    padding: 50px 0 0 100px;
+    }
+.top-section.text-left {
+    padding-bottom: 30px;
+}
+
+button.join{
+    padding: 20px;
+    max-width: 350px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    margin: 0px 145px 92px;
+    background: #32A701;
+    color: #fff;
+    font-weight: bold;
+}
+button:hover{
+	background-color: #ff6b6b;
+}
+
+@media (max-width: 800px){
+	section#two,
+	section#four {
+	    margin-right: 15px;
+	}
+	section#one {
+	        background-size: cover;
+    background-position: center;
+	}
+	.top-section.text-left h1 {
+	    padding: 26px 0px 0px 92px;
+	    font-size: 42px !important;
+	}
+	.top-section.text-left h2 {
+	    padding: 0 94px;
+	    font-size: 20px;
+
+	    margin: 0;
+	}
+	.top-section.text-left {
+	    padding-bottom: 73px;
+	}
+}
+@media (max-width: 500px){
+	section#one {
+	    background-size: cover;
+	}
+	.top-section.text-left img {
+	    padding: 15px 0 0 25px;
+	}
+	.top-section.text-left h1 {
+	    padding: 0px 0px 0px 30px;
+	    font-size: 18px !important;
+    	margin-top: 5px;
+	}
+	.top-section.text-left h2 {
+	    padding: 0px 31px;
+	    font-size: 12px;
+	    margin: 0px;
+	}
+	.top-section.text-left {
+	    padding-bottom: 30px;
+	}
+	.question {
+	    padding: 10px 0 20px;
+	}
+}
